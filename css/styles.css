@@ -202,13 +202,14 @@ nav {
 
 .project-header {
   position: absolute;
-  margin-top: 200px;
-  margin-left: 250px;
+  width: 900px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .portfolio h1 {
-  margin: 0;
-  padding: 0;
   letter-spacing: 1px;
   line-height: 80px;
   align-content: center;
