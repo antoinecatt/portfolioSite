@@ -264,6 +264,22 @@ nav {
   vertical-align: middle;
 }
 
+.portfolio .github-link:link,
+.portfolio .github-link:visited,
+.portfolio .mail-link:link,
+.portfolio .mail-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+.portfolio .github-link:active,
+.portfolio .github-link:hover,
+.portfolio .mail-link:active,
+.portfolio .mail-link:hover {
+  border-bottom: 1px solid #fff;
+}
+
 /* CONTACT */
 
 .contact {
