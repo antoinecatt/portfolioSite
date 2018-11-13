@@ -10,7 +10,6 @@ html {
   color: #555555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
-  font-size: 20px;
   text-rendering: optimizeLegibility;
 }
 
@@ -46,8 +45,8 @@ nav {
   height: 130px;
   width: auto;
   float: left;
-  margin-top: 10px;
-  margin-left: 50px;
+  margin-top: 0.65rem;
+  margin-left: 3.15rem;
 }
 
 .main-nav {
@@ -58,19 +57,20 @@ nav {
 
 .main-nav li {
   display: inline-block;
-  margin-right: 15px;
-  margin-top: 50px;
+  margin-right: 0.88rem;
+  margin-top: 3.15rem;
 }
 
 .main-nav a {
   letter-spacing: 1.5px;
+  font-size: 1.2rem;
 }
 
 .main-nav a:hover,
 .main-nav a:active {
   text-decoration: none;
   border-bottom: 1px solid #ff5722;
-  padding: 2px;
+  padding: 0.15rem;
 }
 
 .main-nav a:link,
@@ -93,11 +93,10 @@ nav {
 
 .hero-headline h1 {
   text-align: center;
-  font-size: 300%;
+  font-size: 3rem;
 }
 
 #bgvideo {
-  /*  making the video fullscreen  */
   position: absolute;
   right: 0;
   bottom: 0;
@@ -106,8 +105,6 @@ nav {
   width: 105%;
   height: auto;
   z-index: -100;
-  background: url('./images/Love-Coding.jpg');
-  background-size: cover;
 }
 
 /* ABOUT ME */
@@ -122,20 +119,20 @@ nav {
 .about-me h1 {
   text-align: center;
   color: #555;
-  margin: 40px auto;
+  margin: 2.2rem auto;
 }
 
 .profile {
   border-radius: 50%;
   width: 400px;
   height: 400px;
-  margin-top: 150px;
-  margin-left: 50px;
+  margin-top: 8.5rem;
+  margin-left: 3.2rem;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 
 .info {
-  margin-top: 10px;
+  margin-top: 0.65rem;
   letter-spacing: 1.5px;
   justify-content: center;
   line-height: 135%;
@@ -144,25 +141,25 @@ nav {
 /* SKILL BOX */
 
 .center {
-  width: 40%;
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 15px;
-  padding: 20px;
+  width: 40vw;
+
+  margin-top: 1.9rem;
+  margin-left: 0.95rem;
+  padding: 1.25rem;
   background: #93969a;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 
 .skillbox {
   width: 100%;
-  margin: 10px 0;
+  margin: 0.65rem 0;
 }
 
 .skillbox p {
   color: #fff;
-  font-size: 80%;
+  font-size: 0.95rem;
   text-transform: uppercase;
-  margin: 0 0 10px;
+  margin: 0 0 0.65rem;
   padding: 0;
   font-weight: bold;
   letter-spacing: 1px;
@@ -176,7 +173,7 @@ nav {
 
 .skill {
   background: #262626;
-  padding: 4px;
+  padding: 0.25rem;
   border: 1px solid #f7f7f7;
   border-radius: 2px;
 }
@@ -191,25 +188,26 @@ nav {
 
 .services {
   height: 100vh;
+  margin: auto;
   text-align: center;
 }
 
 .services h1 {
-  margin-top: 75px;
+  margin-top: 4.25rem;
 }
 
 .services h2 {
-  margin-top: 15px;
+  margin-top: 0.95rem;
 }
 
 .img-wrapper {
-  margin-top: 50px;
-  height: 50%;
-  width: 40%;
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 15px;
-  padding: 20px;
+  margin-top: 2.25rem;
+  max-width: 500px;
+  height: 50vh;
+  width: 40vw;
+  margin-top: 1.85rem;
+  margin-left: 0.95rem;
+  padding: 1.25rem;
   background: #ff5722;
   color: #fff;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
@@ -219,11 +217,11 @@ nav {
 .services-img {
   height: 150px;
   width: 150px;
-  margin-top: 25px;
+  margin-top: 1.35rem;
 }
 
 .img-wrapper p {
-  margin-top: 25px;
+  margin-top: 1.35rem;
   font-weight: 400;
 }
 
@@ -250,7 +248,7 @@ nav {
 
 .project-header {
   position: absolute;
-  width: 900px;
+  width: 60rem;
   top: 50%;
   left: 50%;
   margin-right: -50%;
@@ -300,33 +298,33 @@ nav {
 }
 
 .form {
-  margin-top: 50px;
+  margin-top: 3.25rem;
   transition: all 4s ease-in-out;
 }
 
 .form-control {
-  width: 600px;
+  width: 40rem;
   background: transparent;
   border: none;
   outline: none;
   border-bottom: 1px solid gray;
-  font-size: 18px;
-  margin-bottom: 16px;
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
 }
 
 input {
-  height: 45px;
+  height: 3rem;
 }
 
 form .submit {
   background: #ff5722;
   border-color: transparent;
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   letter-spacing: 2px;
-  height: 50px;
-  margin-top: 20px;
+  height: 3.25rem;
+  margin-top: 1.25rem;
 }
 
 form .submit:hover {
@@ -338,18 +336,19 @@ form .submit:hover {
 
 footer {
   background-color: #333;
-  padding: 50px;
+  padding: 3.25rem;
 }
 
 .footer-nav {
   list-style: none;
   float: left;
+  font-size: 1.25rem;
 }
 
 .social-links li,
 .footer-nav li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .social-links {
@@ -403,5 +402,5 @@ footer {
 footer p {
   color: #888;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }

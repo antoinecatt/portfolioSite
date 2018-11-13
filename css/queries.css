@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    background-color: brown;
+  }
+
+  .logo {
+    position: absolute;
+    height: 250px;
+    top: 10%;
+    left: 25%;
+    width: auto;
+    margin: auto;
+    display: inline-block;
+    float: none;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 50%;
+    left: 42.5%;
+    float: none;
+  }
+
+  .main-nav li {
+    display: block;
+    text-align: center;
+    margin-top: 0.8rem;
+    float: none;
+  }
+
+  #bgvideo,
+  .hero-header .hero-headline {
+    display: none;
+  }
+}
