@@ -8,15 +8,23 @@
 }
 
 @media only screen and (max-width: 480px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   header {
     background-color: brown;
+    width: 100%;
   }
 
   .logo {
     position: absolute;
     height: 250px;
     top: 10%;
-    left: 20%;
+    left: 25%;
     width: auto;
     margin: auto;
     display: inline-block;
@@ -34,11 +42,19 @@
     display: block;
     text-align: center;
     margin-top: 0.8rem;
+    padding: 0.8rem;
     float: none;
   }
 
   #bgvideo,
   .hero-header .hero-headline {
     display: none;
+  }
+  .form-wrapper {
+    width: 80%;
+  }
+
+  form .form-control {
+    width: 100%;
   }
 }
