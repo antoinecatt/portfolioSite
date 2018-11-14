@@ -55,7 +55,7 @@
   }
 
   .about-me {
-    height: 200vh;
+    height: 150vh;
     text-align: center;
   }
 
@@ -87,19 +87,23 @@
 
   .services {
     font-size: 0.9rem;
-    height: 200vh;
+    height: 150vh;
   }
 
   .img-wrapper {
-    height: 40vh;
+    height: 50vh;
     width: 80vw;
     text-align: center;
     margin-bottom: 1.5rem;
     margin-left: 2.5rem;
   }
 
+  .img-wrapper p {
+    font-size: 1rem;
+  }
+
   #particles-js {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   #particles-js canvas {
