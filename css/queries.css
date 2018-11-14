@@ -1,10 +1,10 @@
 @media only screen and (max-width: 1200px) {
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 }
 
 @media only screen and (max-width: 480px) {
@@ -25,7 +25,6 @@
     height: 250px;
     top: 10%;
     left: 25%;
-    width: auto;
     margin: auto;
     display: inline-block;
     float: none;
@@ -54,7 +53,39 @@
     width: 80%;
   }
 
+  .profile {
+    width: 200px;
+    height: 200px;
+    margin-top: 3rem;
+    margin-left: 8rem;
+  }
+
+  .about-me {
+    height: 115vh;
+  }
+
+  .about-me h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-me .info {
+    font-size: 0.9rem;
+    padding: 0 2.5rem;
+  }
+
+  .center {
+    width: 80vw;
+    margin-left: 2.5rem;
+    padding: 0.8rem;
+  }
+
   form .form-control {
     width: 100%;
+  }
+
+  footer .social-links {
+    float: none;
+    text-align: center;
+    margin-top: 1.5rem;
   }
 }
