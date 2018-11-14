@@ -85,12 +85,33 @@
     text-align: start;
   }
 
+  .services {
+    font-size: 0.9rem;
+    height: 130vh;
+  }
+
+  .img-wrapper {
+    height: 40vh;
+    width: 80vw;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+  }
+
+  #particles-js {
+    font-size: 0.9rem;
+  }
+
   #particles-js canvas {
     display: none;
   }
 
   .project-header p {
     padding: 0 300px;
+  }
+
+  form {
+    font-size: 0.9rem;
   }
 
   form .form-control {
