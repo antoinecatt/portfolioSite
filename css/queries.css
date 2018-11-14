@@ -13,6 +13,7 @@
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   header {
@@ -55,7 +56,7 @@
   }
 
   .about-me {
-    height: 145vh;
+    height: 140vh;
     text-align: center;
   }
 
