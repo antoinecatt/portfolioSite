@@ -56,7 +56,7 @@
   }
 
   .about-me {
-    height: 140vh;
+    height: 145vh;
     text-align: center;
   }
 
@@ -72,7 +72,7 @@
   }
 
   .about-me .info {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 0 2.5rem;
   }
 
