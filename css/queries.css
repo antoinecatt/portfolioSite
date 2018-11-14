@@ -55,7 +55,7 @@
   }
 
   .about-me {
-    height: 120vh;
+    height: 200vh;
     text-align: center;
   }
 
@@ -87,7 +87,7 @@
 
   .services {
     font-size: 0.9rem;
-    height: 130vh;
+    height: 200vh;
   }
 
   .img-wrapper {
